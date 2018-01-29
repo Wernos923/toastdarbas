@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/valor">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_pokemon_name"
+        android:textColor="@color/white"
+        android:textAllCaps="true"/>
+
+    <EditText
+        android:id="@+id/login_pokemon_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pokemono tipas: "
+        android:textAllCaps="true"
+        android:textColor="@color/white"/>
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_pokemon_type_vegan"
+        android:textColor="@color/white"/>
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_pokemon_type_two_heads"
+        android:textColor="@color/white"/>
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_pokemon_type_four_legs"
+        android:textColor="@color/white"/>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Pokemono Klase: "
+    android:textAllCaps="true"
+    android:textColor="@color/white"/>
+
+    <RadioGroup
+    android:id="@+id/login_pokemon_class"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RadioButton
+        android:id="@+id/login_pokemon_class_earth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_pokemon_class_air"
+        android:textColor="@color/white"
+        android:checked="true"/>
+
+
+
+    <RadioButton
+        android:id="@+id/login_pokemon_class_air"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="@string/login_pokemon_class_water"/>
+
+
+    <RadioButton
+        android:id="@+id/login_pokemon_class_water"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="@string/login_pokemon_class_earth"/>
+
+
+        </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pokemono jega: "
+        android:textAllCaps="true"
+        android:textColor="@color/white"/>
+
+    <RadioGroup
+        android:id="@+id/login_pokemon_power"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <RadioButton
+        android:id="@+id/login_pokemon_power_weak"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="@string/login_pokemon_power_weak"
+        android:textColor="@color/white"/>
+
+    <RadioButton
+        android:id="@+id/login_pokemon_power_normal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_pokemon_power_normal"
+        android:textColor="@color/white"/>
+
+    <RadioButton
+        android:id="@+id/login_pokemon_power_strong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_pokemon_power_strong"
+        android:textColor="@color/white"/>
+
+</RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Login_pokemon_weight"
+        android:textAllCaps="true"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:text="@string/login_pokemon_height"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimaryDark"/>
+
+            <Button
+                android:id="@+id/button_add"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_add" />
+
+            <Button
+                android:id="@+id/button_delete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_delete" />
+
+            <Button
+                android:id="@+id/button_update"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_update" />
+
+            <Button
+            android:id="@+id/button_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_search" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
