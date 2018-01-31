@@ -1,28 +1,28 @@
 <resources>
-    <string name="app_name">pamoka</string>
-    <string name="login_pokemon_class">Pokemono klase: </string>
-    <string name="login_pokemon_class_air">Oro klase </string>
-    <string name="login_pokemon_class_earth">Zemes klase </string>
-    <string name="login_pokemon_class_water">Vandens klase </string>
+    <string name="app_name">POKEMON</string>
+    <string name="login_pokemon_class">Pokemon class: </string>
+    <string name="login_pokemon_class_air">Air class </string>
+    <string name="login_pokemon_class_earth">Earth class </string>
+    <string name="login_pokemon_class_water">Water class </string>
 
-    <string name="login_pokemon_name">Pokemono pavadinimas: </string>
+    <string name="login_pokemon_name">Pokemo Name: </string>
 
-    <string name="login_pokemon_type">Pokemono tipas: </string>
-    <string name="login_pokemon_type_vegan">Veganas </string>
-    <string name="login_pokemon_type_two_heads">Dvi galvos </string>
-    <string name="login_pokemon_type_four_legs">Keturios kojos</string>
+    <string name="login_pokemon_type">Pokemon Type: </string>
+    <string name="login_pokemon_type_vegan">Vegan </string>
+    <string name="login_pokemon_type_two_heads">Two heads</string>
+    <string name="login_pokemon_type_four_legs">Four legs</string>
 
-    <string name="login_pokemon_power">Pokemono jega</string>
-    <string name="login_pokemon_power_weak">Silpnas</string>
-    <string name="login_pokemon_power_normal">Vidutinis</string>
-    <string name="login_pokemon_power_strong">Stiprus</string>
+    <string name="login_pokemon_power">Pokemon Power</string>
+    <string name="login_pokemon_power_weak">Weak</string>
+    <string name="login_pokemon_power_normal">Normal</string>
+    <string name="login_pokemon_power_strong">Strong</string>
 
-    <string name="Login_pokemon_weight">Pokemono svoris: </string>
-    <string name="login_pokemon_height">Pokemono aukstis: </string>
+    <string name="Login_pokemon_weight">Pokemon weight: </string>
+    <string name="login_pokemon_height">Pokemon height: </string>
 
-    <string name="button_add">Prideti </string>
-    <string name="button_delete">Istrinti: </string>
-    <string name="button_update">Atnaujinti </string>
-    <string name="button_search">Ieskoti </string>
+    <string name="button_add">Add </string>
+    <string name="button_delete">Delete: </string>
+    <string name="button_update">Update </string>
+    <string name="button_search">Search </string>
 
 </resources>

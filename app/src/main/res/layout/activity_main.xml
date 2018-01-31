@@ -34,25 +34,29 @@
         android:layout_height="wrap_content"
         android:text="Pokemono tipas: "
         android:textAllCaps="true"
-        android:textColor="@color/white"/>
+        android:textColor="@color/white"
+        android:buttonTint="@color/white"/>
     <CheckBox
         android:id="@+id/checkBox1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/login_pokemon_type_vegan"
-        android:textColor="@color/white"/>
+        android:textColor="@color/white"
+        android:buttonTint="@color/white"/>
     <CheckBox
         android:id="@+id/checkBox2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/login_pokemon_type_two_heads"
-        android:textColor="@color/white"/>
+        android:textColor="@color/white"
+        android:buttonTint="@color/white"/>
     <CheckBox
         android:id="@+id/checkBox3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/login_pokemon_type_four_legs"
-        android:textColor="@color/white"/>
+        android:textColor="@color/white"
+        android:buttonTint="@color/white"/>
 <TextView
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -71,7 +75,8 @@
         android:layout_height="wrap_content"
         android:text="@string/login_pokemon_class_air"
         android:textColor="@color/white"
-        android:checked="true"/>
+        android:checked="true"
+        android:buttonTint="@color/white"/>
 
 
 
@@ -80,7 +85,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/white"
-        android:text="@string/login_pokemon_class_water"/>
+        android:text="@string/login_pokemon_class_water"
+        android:buttonTint="@color/white"/>
 
 
     <RadioButton
@@ -88,7 +94,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/white"
-        android:text="@string/login_pokemon_class_earth"/>
+        android:text="@string/login_pokemon_class_earth"
+        android:buttonTint="@color/white"/>
 
 
         </RadioGroup>
@@ -111,21 +118,24 @@
         android:layout_height="wrap_content"
         android:checked="true"
         android:text="@string/login_pokemon_power_weak"
-        android:textColor="@color/white"/>
+        android:textColor="@color/white"
+        android:buttonTint="@color/white"/>
 
     <RadioButton
         android:id="@+id/login_pokemon_power_normal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/login_pokemon_power_normal"
-        android:textColor="@color/white"/>
+        android:textColor="@color/white"
+        android:buttonTint="@color/white"/>
 
     <RadioButton
         android:id="@+id/login_pokemon_power_strong"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/login_pokemon_power_strong"
-        android:textColor="@color/white"/>
+        android:textColor="@color/white"
+        android:buttonTint="@color/white"/>
 
 </RadioGroup>
 
