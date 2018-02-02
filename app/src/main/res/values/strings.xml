@@ -21,8 +21,10 @@
     <string name="login_pokemon_height">Pokemon height: </string>
 
     <string name="button_add">Add </string>
-    <string name="button_delete">Delete: </string>
+    <string name="button_delete">Delete </string>
     <string name="button_update">Update </string>
     <string name="button_search">Search </string>
 
+    <string name="login_invalid_username">Klaidingai įvestas prisijungimo vardas</string>
+    <string name="login_invalid_password">Klaidingai įvestas slaptažodis</string>
 </resources>

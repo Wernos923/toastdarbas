@@ -1,6 +1,7 @@
 package luko.pamoka;
 
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -56,15 +57,22 @@ public class RegisterActivity extends AppCompatActivity {
                     email.setError("PLEASE MAKE SURE YOUR EMAIL IS WRITTEN CORRECTLY");
                 }
                 final String password1 = password.getText().toString();
-                if(!password.getText().toString().equals(Rpassword.getText().toString())){
+                if (!password.getText().toString().equals(Rpassword.getText().toString())) {
                     password.setError("YOUR PASSWORDS DON'T MATCH");
-                }
-                else {
+                } else {
                     Toast.makeText(RegisterActivity.this, "Validation Successful", Toast.LENGTH_LONG).show();
                 }
             }
         });
-
+        Button btnRGoBack = (Button) findViewById(R.id.back);
+        btnRGoBack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // TODO Auto-generated method stub
+                Intent i = new Intent(RegisterActivity.this, LoginActivity.class);
+                startActivity(i);
+            }
+        });
     }
 }
 
